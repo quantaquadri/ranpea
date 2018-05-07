@@ -8,10 +8,16 @@ body {
     position: relative;
 }
 
+#mobile-nav-toggle, #mobile-nav{
+    display: none !important;
+}
+
 @media (max-width: 800px)
+{
     #mobile-nav-toggle {
         display: inline
     }
+}
 
 #mobile-nav-toggle {
     position: fixed;
